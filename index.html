@@ -1,0 +1,113 @@
+<html>
+  <head>
+    <title>Final web</title>
+    <link rel="stylesheet" href="horizontalnav.css" />
+    <style>
+      body {
+        background: url("s1.jpg");
+        background-repeat: no-repeat;
+        background-size: 99.5%;
+      }
+      div {
+        line-height: 50%;
+      }
+      p {
+        line-height: 20%;
+      }
+      button {
+        float: right;
+        margin: 70px;
+        background-color: hotpink;
+        color: white;
+        font-family: algerian;
+        font-size: 30px;
+      }
+      .active,
+      .button:hover {
+        background-color: #666;
+        color: white;
+      }
+      .glow {
+        font-size: 80px;
+        color: #fff;
+        text-align: left;
+        -webkit-animation: glow 1s ease-in-out infinite alternate;
+        -moz-animation: glow 1s ease-in-out infinite alternate;
+        animation: glow 1s ease-in-out infinite alternate;
+      }
+
+      @-webkit-keyframes glow {
+        from {
+          text-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 30px #fdad5c,
+            0 0 40px blue, 0 0 50px greenyellow, 0 0 60px #fdad5c,
+            0 0 70px #fdad5c;
+        }
+
+        to {
+          text-shadow: 0 0 20px #fff, 0 0 30px lightgreen, 0 0 40px hotpink,
+            0 0 50px, 0 0 60px greenyellow lightseagreen, 0 0 70px purple,
+            0 0 80px #adff2f;
+        }
+      }
+    </style>
+  </head>
+  <body>
+    <br />
+    <nav>
+      <ul id="mainmenu">
+        <li>
+          <a href="index.html"><b>HOmE</b></a>
+        </li>
+        <li>
+          <a href="buynow.html"><b>Buy NOw</b></a>
+        </li>
+
+        <li>
+          <a href="category.html"><b>CaTegorY</b></a>
+        </li>
+
+        <li>
+          <a href="collections.html"><b>CoLLectionS</b></a>
+        </li>
+        <li>
+          <a href="features.html"><b>FeaTures</b></a>
+        </li>
+        <li>
+          <a href="contact.html"><b>ContacT us</b></a>
+        </li>
+      </ul>
+    </nav>
+    <br /><br /><br /><br /><br /><br /><br /><br /><br />
+    <div>
+      <h1
+        class="glow"
+        style="
+          text-align: center;
+          font-size: 100px;
+          font-family: roboto;
+          color: white;
+        "
+      >
+        Online Shopping?!
+      </h1>
+      <br />
+      <p
+        class="glow"
+        style="
+          text-align: center;
+          font-size: 50px;
+          font-family: algerian;
+          color: black;
+        "
+      >
+        <i
+          ><b></b>Make ur home ur <i><b>happy</b></i></i
+        >
+        place!!
+      </p>
+    </div>
+    <form>
+      <button><a href="readmore.html">Read more</a></button>
+    </form>
+  </body>
+</html>

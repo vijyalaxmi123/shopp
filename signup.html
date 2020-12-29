@@ -1,0 +1,98 @@
+<html>
+  <head>
+    <title>Sign up</title>
+    <link rel="stylesheet" href="horizontalnav3.css" />
+    <style>
+      body {
+        background: url("m1.jpg");
+        background-repeat: no-repeat;
+        background-size: 99.5%;
+      }
+      h1 {
+        line-height: 80%;
+        margin: 80px;
+      }
+      legend,
+      label {
+        color: black;
+      }
+      fieldset {
+        font-size: 25px;
+        width: 320px;
+        line-height: 1.8;
+        margin: 50px;
+        padding: 1 em;
+      }
+      button {
+        background-color: #4caf50; /* Green */
+        border: none;
+        color: white;
+        padding: 15px 32px;
+        text-align: center;
+        text-decoration: none;
+        display: inline-block;
+        font-size: 16px;
+        margin: 4px 2px;
+        cursor: pointer;
+      }
+    </style>
+  </head>
+  <body>
+    <br />
+    <nav>
+      <ul id="mainmenu">
+        <li>
+          <a href="index.html"><b>Home</b></a>
+        </li>
+        <li>
+          <a href="buynow.html"><b>Menu card</b></a>
+        </li>
+        <li>
+          <a href="collections.html"><b>Gallery</b></a>
+        </li>
+        <li>
+          <a href="category.html"><b>Category</b></a>
+        </li>
+        <li>
+          <a href="features.html"><b>Features</b></a>
+        </li>
+        <li>
+          <a href="contact.html"><b>Contact us</b></a>
+        </li>
+      </ul>
+    </nav>
+    <br />
+    <h1
+      class="glow"
+      style="
+        font-size: 50px;
+        font-family: algerian;
+        color: black;
+        margin: 80px;
+      "
+    >
+      Sign up
+    </h1>
+    <form>
+      <fieldset>
+        <legend><b>Signup</b></legend>
+        <label for="fname">First name</label><br />
+        <input type="text" id="fname" name="fname" autofocus /><br />
+        <label for="lname">Last name</label><br />
+        <input type="text" id="lname" name="lname" required /><br />
+        <label for="birthday">Date of birth:</label><br />
+        <input type="date" id="birthday" name="birthday" /><br />
+        <label for="uname">Username</label><br />
+        <input type="text" id="uname" name="uname" /><br />
+        <label for="password">Password</label><br />
+        <input
+          type="password"
+          id="password"
+          name="password"
+          required
+        /><br /><br />
+        <button><a href="login.html">Create account</a></button>
+      </fieldset>
+    </form>
+  </body>
+</html>

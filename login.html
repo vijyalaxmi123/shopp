@@ -1,0 +1,116 @@
+<html>
+  <head>
+    <title>Login</title>
+    <link rel="stylesheet" href="horizontalnav3.css" />
+    <style>
+      body {
+        background: url("s7.jpg");
+        background-repeat: no-repeat;
+        background-size: 99.5%;
+      }
+      .glow {
+        font-size: 80px;
+        color: #fff;
+        text-align: left;
+        -webkit-animation: glow 1s ease-in-out infinite alternate;
+        -moz-animation: glow 1s ease-in-out infinite alternate;
+        animation: glow 1s ease-in-out infinite alternate;
+      }
+
+      @-webkit-keyframes glow {
+        from {
+          text-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 30px #fdad5c,
+            0 0 40px #fdad5c, 0 0 50px #fdad5c, 0 0 60px #fdad5c,
+            0 0 70px #fdad5c;
+        }
+
+        to {
+          text-shadow: 0 0 20px #fff, 0 0 30px #adff2f, 0 0 40px #adff2f,
+            0 0 50px #adff2f, 0 0 60px #adff2f, 0 0 70px #adff2f,
+            0 0 80px #adff2f;
+        }
+      }
+      label {
+        color: black;
+        line-height: 100%;
+        font-size: 20px;
+      }
+      button {
+        background-color: #4caf50;
+        border: none;
+        color: white;
+        padding: 12px 28px;
+        text-align: center;
+        text-decoration: none;
+        display: inline-block;
+        font-size: 14px;
+        margin: 4px 2px;
+        cursor: pointer;
+        font-family: algerian;
+      }
+    </style>
+  </head>
+  <body>
+    <br />
+    <nav>
+      <ul id="mainmenu">
+        <li>
+          <a href="index.html"><b>Home</b></a>
+        </li>
+        <li>
+          <a href="buynow.html"><b>Buy Now</b></a>
+        </li>
+
+        <li>
+          <a href="category.html"><b>Category</b></a>
+        </li>
+        <li>
+          <a href="collections.html"><b>Collections</b></a>
+        </li>
+        <li>
+          <a href="Features.html"><b>Features</b></a>
+        </li>
+        <li>
+          <a href="contact.html"><b>Contact us</b></a>
+        </li>
+      </ul>
+    </nav>
+    <br />
+    <h1
+      class="glow"
+      style="
+        font-size: 60px;
+        font-family: algerian;
+        color: black;
+        margin: 80px;
+      "
+    >
+      Order Now
+    </h1>
+    <p style="font-size: 25px; color: black; margin: 15px;">
+      Please fill in your information
+    </p>
+    <br /><br />
+    <label for="fname">Name: </label>
+    <input type="text" id="fname" name="fname" autofocus />
+    <label for="lname"> </label>
+    <input type="text" id="lname" name="lname" /><br /><br /><br />
+    <label for="email">Email: </label>
+    <input type="email" id="email" name="email" /><br /><br /><br />
+    <label for="contact">Contact No: </label>
+    <input type="number" id="contact" name="contact" /><br /><br /><br />
+    <label for="number">Confirmation Id: </label>
+    <input type="number" id="number" name="number" /><br /><br /><br />
+    <label for="address">Address: </label>
+    <input type="address" id="addresss" name="address" /><br /><br /><br />
+    <label for="city">City: </label>
+    <input type="text" id="city" name="city" /><br /><br /><br />
+    <label for="fo">Enter product name: </label>
+    <input type="text" id="fo" name="fo" /><br /><br /><br />
+    <label for="message">Message: </label>
+    <input type="text" id="message" name="message" /><br /><br /><br />
+    <button onclick="alert('Congragulations,your order is placed')">
+      Order now
+    </button>
+  </body>
+</html>

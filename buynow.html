@@ -1,0 +1,106 @@
+<html>
+  <head>
+    <title>order</title>
+    <link rel="stylesheet" href="horizontalnav3.css" />
+    <style>
+      body {
+        background: url("s10.jpg");
+        background-repeat: no-repeat;
+        background-size: 99.5%;
+      }
+
+      h1 {
+        line-height: 100%;
+      }
+
+      p {
+        line-height: 60%;
+      }
+
+      legend,
+      label {
+        color: black;
+      }
+
+      form {
+        margin: 50px;
+        line-height: 90%;
+      }
+
+      fieldset {
+        float: center;
+        font-size: 25px;
+        width: 300px;
+        line-height: 2.5;
+        margin: 3.5em 0;
+        padding: 1.5 em;
+      }
+
+      button {
+        background-color: #4caf50;
+        /* Green */
+        border: none;
+        color: white;
+        padding: 15px 32px;
+        text-align: center;
+        text-decoration: none;
+        display: inline-block;
+        font-size: 18px;
+        margin: 6px 3px;
+        cursor: pointer;
+      }
+    </style>
+  </head>
+
+  <body>
+    <br />
+    <nav>
+      <ul id="mainmenu">
+        <li>
+          <a href="index.html"><b>Home</b></a>
+        </li>
+
+        <li>
+          <a href="category.html"><b>Category</b></a>
+        </li>
+        <li>
+          <a href="collections.html"><b>Collections</b></a>
+        </li>
+        <li>
+          <a href="features.html"><b>Features</b></a>
+        </li>
+        <li>
+          <a href="contact.html"><b>Contact us</b></a>
+        </li>
+      </ul>
+    </nav>
+    <br />
+    <h1
+      class="glow"
+      style="font-size: 70px; font-family: algerian; color: #fff; margin: 80px;"
+    >
+      Order Form
+    </h1>
+    <p style="font-size: 25px; color: white; margin: 20px;">
+      Please fill in your information and we'll send your order in no time
+    </p>
+    <br />
+    <form>
+      <fieldset>
+        <legend>Login</legend>
+        <label for="fname">Email</label><br />
+        <input type="text" id="fname" name="fname" autofocus /><br /><br />
+        <label for="password">Password</label><br />
+        <input
+          type="password"
+          id="password"
+          name="password"
+          required
+        /><br /><br />
+        <button><a href="login.html">Login</a></button> or<button>
+          <a href="signup.html">Sign up</a>
+        </button>
+      </fieldset>
+    </form>
+  </body>
+</html>

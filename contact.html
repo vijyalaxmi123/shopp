@@ -1,0 +1,128 @@
+<html>
+<head>
+<title>Contact us</title>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<style>
+body{
+background:url("sw3.jpg");
+background-repeat:no-repeat;
+background-size:100%;
+}
+svg{
+font-size:80;
+}
+img{
+width:100%;
+height:250;
+}
+.container {
+  position: relative;
+  text-align: center;
+  color: white;
+}
+.centered {
+  position: absolute;
+  top: 40%;
+  left: 60%;
+  transform: translate(-50%, -50%);
+  font-size:60px;
+font-family:algerian;
+color:#000;
+}
+label{
+font-size:20px;
+color:black;
+align:center;
+}
+input{
+width:450px;
+align:center;
+}
+button {
+  background-color:#fdad5c;
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+}
+.return{
+   float:center;
+  background-color:#fdad5c; 
+  border: none;
+  color: white;
+  padding: 12px 28px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 20px;
+  margin: 120px;
+  cursor: pointer;
+  font-family:algerian;
+ 
+}
+.glow {
+        font-size: 80px;
+        color: #fff;
+        text-align: left;
+        -webkit-animation: glow 1s ease-in-out infinite alternate;
+        -moz-animation: glow 1s ease-in-out infinite alternate;
+        animation: glow 1s ease-in-out infinite alternate;
+      }
+
+      @-webkit-keyframes glow {
+        from {
+          text-shadow: 0 0 10px #fff, 0 0 20px red, 0 0 30px white,
+            0 0 40px greenyellow, 0 0 50px greenyellow, 0 0 60px #fdad5c,
+            0 0 70px whitesmoke;
+        }
+
+        to {
+          text-shadow: 0 0 20px #fff, 0 0 30px whitesmoke, 0 0 40px hotpink,
+            0 0 50px, 0 0 60px greenyellow lightseagreen, 0 0 70px white,
+            0 0 80px #adff2f;
+        }
+      }
+</style>
+</head>
+<body>
+<svg width="100%" height="110">
+  <rect width="100%" height="100" style="fill:orange"; />
+<text x="60" y="75" fill="white" font-family="algerian" font-size:"40">Scarlett</text>
+<text x="1400" y="55" style="font-size:20px; color:white; font-family:arial;">Log in</text>
+</svg><br><br>
+<div class="rut">
+
+  <h1 class="glow" style="
+            text-align: center;
+            font-size: 100px;
+            font-family: roboto;
+            color: black;
+          ">
+    Welcome to our
+    <pre style="font-size:30px; color:#fff;">            +++++++++++++++++++++++++++++++++++              </pre>
+     new site?!
+    <pre style="font-size:30px; color:#fff;">             ++++++++++++++++++++++              </pre>
+    </h1>
+  </h1>
+
+
+</div><br>
+<form>
+<label for="fname">Name:               </label><br>
+<input type="text" id="fname" name="fname"   autofocus><br><br><br>
+<label for="email">Email:              </label><br>
+<input type="email" id="fname" name="fname"><br><br><br>
+<label for="number">Mob No.:              </label><br>
+<input type="text" id="number" name="number"><br><br><br>
+<label for="num">How can we help you:              </label><br>
+<input type="text" id="num" name="num"><br><br><br>
+<button onclick="alert('Your response is submitted!!')">Submit</button>
+<button class="return"><a href="final.html">Back</a></button>
+</form>
+</body>
+</html>
